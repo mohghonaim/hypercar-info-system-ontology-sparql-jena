@@ -1,0 +1,2013 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasFixedWing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasFixedWing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasRetractableWing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasRetractableWing">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasAeroPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasAeroPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBodystyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBodystyle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasEngineSpec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasEngineSpec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasPerformanceSpec -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasPerformanceSpec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasTransmission -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasTransmission">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasWheelType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasWheelType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/isRoadsterVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/isRoadsterVersionOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/isVariantOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/isVariantOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/makesModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/makesModel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#bodyType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#bodyType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/canardAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/canardAngle">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/capacityofScoop -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/capacityofScoop">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/doorMechanism -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/doorMechanism">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/drivetrain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/drivetrain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/drivetrain"/>
+                        <owl:hasValue>AWD</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/drivetrain"/>
+                        <owl:hasValue>FWD</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/drivetrain"/>
+                        <owl:hasValue>RWD</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineAspiration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineAspiration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineAspiration"/>
+                        <owl:hasValue>Natural</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineAspiration"/>
+                        <owl:hasValue>Quad-turbocharged</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineAspiration"/>
+                        <owl:hasValue>Twin-turbocharged</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineCapacity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineCylinders -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineCylinders">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineCylinders"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLabel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLayout -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLayout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLayout"/>
+                        <owl:hasValue>Front-engined</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLayout"/>
+                        <owl:hasValue>Mid-engined</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/engineLayout"/>
+                        <owl:hasValue>Rear-engined</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/gearRatio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/gearRatio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/label">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/manufacturerLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/manufacturerLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/material"/>
+                        <owl:hasValue>Alloy</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/material"/>
+                        <owl:hasValue>Carbon fibre</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfGears -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfGears">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfGears"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfSpokes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfSpokes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfUnits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfUnits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/numOfUnits"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/power -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/power">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roadLegality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roadLegality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMaterial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMaterial"/>
+                        <owl:hasValue>Hardtop</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMaterial"/>
+                        <owl:hasValue>Vinyl</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMechanism -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMechanism">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMechanism"/>
+                        <owl:hasValue>Convertible</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/roofMechanism"/>
+                        <owl:hasValue>Detachable</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/torque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/torque">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/versionType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/versionType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelBolting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelBolting">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelBolting"/>
+                        <owl:hasValue>center lock</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelBolting"/>
+                        <owl:hasValue>lug nuts</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelHubCap -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wheelHubCap">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAdjustmentType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAdjustmentType">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAdjustmentType"/>
+                        <owl:hasValue>Active Aero</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAdjustmentType"/>
+                        <owl:hasValue>Fixed</owl:hasValue>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAdjustmentType"/>
+                        <owl:hasValue>Fixed - Active Aero</owl:hasValue>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAttackAngle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingAttackAngle">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingHeight">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/wingWidth">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AlloyWheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AlloyWheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CarbonWheel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CarbonWheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CarbonWheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CenterLockWheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CenterLockWheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#LugNutWheel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#LugNutWheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#LugNutWheel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#A/T -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#A/T">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Coupe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Coupe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasFixedWing"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DualClutch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DualClutch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec">
+        <rdfs:label>Engine Spec</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/makesModel"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBodystyle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasEngineSpec"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasPerformanceSpec"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasTransmission"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasRetractableWing"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MultiClutch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MultiClutch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AeroPart"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bodystyle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBodystyle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/SingleSpeedDirectDrive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/SingleSpeedDirectDrive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#hasFixedWing"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/hasBaseModel"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TransmissionSpec"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Wheel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AttachedBolideScoop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AttachedBolideScoop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#DetachedZondaScoop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#DetachedZondaScoop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#DetatchedHuayraRScoop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#DetatchedHuayraRScoop"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedAT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedAT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#A/T"/>
+        <label>6-speed automatic</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedManual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedManual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>6-speed manual</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedSeq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedSeq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>6-speed sequential</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM77EngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM77EngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Natural</engineAspiration>
+        <engineCapacity>7.3L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</engineCylinders>
+        <engineLayout>Front-engined</engineLayout>
+        <label>Aston Martin 7.3L V12</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AMVulcanEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AMVulcanEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Natural</engineAspiration>
+        <engineCapacity>7.0L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</engineCylinders>
+        <engineLayout>Front-engined</engineLayout>
+        <label>Aston Martin 7.0L V12</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AstonMartin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AstonMartin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One_77"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Victor"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Vulcan"/>
+        <label>Aston Martin</label>
+        <manufacturerLocation>Gaydon, Warwickshire</manufacturerLocation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bolide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bolide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolideWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolidePerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Bugatti Bolide</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</numOfUnits>
+        <versionType>Track-only model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolidePerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolidePerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>AWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,578 hp</power>
+        <torque>1,600 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolideWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BolideWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>18 degrees</wingAttackAngle>
+        <wingWidth>1,990 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bugatti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bugatti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Bolide"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPurSport"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSuperSport"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaVoitureNoire"/>
+        <label>Bugatti</label>
+        <manufacturerLocation>Molsheim, France</manufacturerLocation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AlloyWheel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CenterLockWheel"/>
+        <material>Alloy</material>
+        <numOfSpokes>5-spoke</numOfSpokes>
+        <wheelBolting>center lock</wheelBolting>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CarbonWheel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CenterLockWheel"/>
+        <material>Carbon fibre</material>
+        <numOfSpokes>Multi</numOfSpokes>
+        <wheelBolting>center lock</wheelBolting>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <untitled-ontology-5:hasRetractableWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironRetractableWing"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPerfSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSSPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Bugatti Chiron</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DualClutch"/>
+        <label>7-speed dual clutch</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Quad-turbocharged</engineAspiration>
+        <engineCapacity>8.0L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Bugatti W16</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>AWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,479 hp</power>
+        <torque>1,600 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPurSport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPurSport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PurSportWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Bugatti Chiron Pur Sport</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</numOfUnits>
+        <versionType>High-downforce sports model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironRetractableWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironRetractableWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing"/>
+        <wingAdjustmentType>Active</wingAdjustmentType>
+        <wingAttackAngle>0 degrees</wingAttackAngle>
+        <wingWidth>1,700 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSSPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSSPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>AWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,587 hp</power>
+        <torque>1,600 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSuperSport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironSuperSport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <hasAeroPart rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironRetractableWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Bugatti Chiron Super Sport</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</numOfUnits>
+        <versionType>Low-drag top-speed-focused model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXXKWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXXKWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>15 degrees</wingAttackAngle>
+        <wingWidth>2.051 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_K -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_K">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXXKWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrari"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_KPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Ferrari FXX K</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</numOfUnits>
+        <versionType>Track-only model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_KPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_KPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,036 hp</power>
+        <torque>900 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Ferrari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Ferrari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FXX_K"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrari"/>
+        <label>Ferrari</label>
+        <manufacturerLocation>Modena, Italy</manufacturerLocation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngAlloyCoupe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngAlloyCoupe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Coupe"/>
+        <label>Front-engined coupe</label>
+        <material>Alloy</material>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngCarbonCoupe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngCarbonCoupe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Coupe"/>
+        <label>Front-engined coupe</label>
+        <material>Carbon fibre</material>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HardTopRoadster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HardTopRoadster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster"/>
+        <label>Mid-engined roadster</label>
+        <material>Carbon fibre</material>
+        <roofMaterial>Hardtop</roofMaterial>
+        <roofMechanism>Detachable</roofMechanism>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Pagani Huayra</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Huayra BC</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</numOfUnits>
+        <versionType>High-downforce sports model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>754 hp</power>
+        <torque>1,000 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBCWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>9 degrees</wingAttackAngle>
+        <wingWidth>2,058 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Twin-turbocharged</engineAspiration>
+        <engineCapacity>6.0L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Mercedes-AMG V12</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq6Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq6Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>6-speed sequential manual</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq7Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq7Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>Xtrac 7-speed sequential manual transmission</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>730 hp</power>
+        <torque>1,000 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq6Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Huayra R</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</numOfUnits>
+        <versionType>Track-only model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>838 hp</power>
+        <torque>750 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>12 degrees</wingAttackAngle>
+        <wingWidth>2,063 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRoadster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRoadster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VinylRoofRoadster"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraManualSeq7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Huayra Roadster</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</numOfUnits>
+        <versionType>Roadster edition</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Jesko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Jesko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoTransmission9Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Koenigsegg Jesko</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAbsolut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAbsolut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LowDragModel"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Jesko"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoTransmission9Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Koenigsegg Jesko Absolut</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</numOfUnits>
+        <versionType>Low-drag top-speed-focused model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAttack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAttack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Jesko"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoTransmission9Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Koenigsegg Jesko Attack</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</numOfUnits>
+        <versionType>High-downforce sports model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Twin-turbocharged</engineAspiration>
+        <engineCapacity>5.1L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Jesko V8</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,280 hp</power>
+        <torque>1,000 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoTransmission9Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoTransmission9Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MultiClutch"/>
+        <label>9-speed multi clutch</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed - Active Aero</wingAdjustmentType>
+        <wingAttackAngle>0-20 degrees</wingAttackAngle>
+        <wingWidth>2,030 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Koenigsegg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Koenigsegg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Jesko"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAbsolut"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/JeskoAttack"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Regera"/>
+        <label>Koenigsegg</label>
+        <manufacturerLocation>Ängelholm, Sweden</manufacturerLocation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Ferrari LaFerrari</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariDualClutch7Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariDualClutch7Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DualClutch"/>
+        <label>7-speed dual clutch</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Natural</engineAspiration>
+        <engineCapacity>6.3L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Ferrari F140 V12</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaFerrariPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>950 hp</power>
+        <torque>700 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaVoitureNoire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LaVoitureNoire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <untitled-ontology-5:hasRetractableWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironRetractableWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Chiron"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ChironDualClutch7Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Bugatti La Voiture Noire</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</numOfUnits>
+        <versionType>One-off model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LugNutAlloyWheel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LugNutAlloyWheel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#AlloyWheel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#LugNutWheel"/>
+        <material>Alloy</material>
+        <numOfSpokes>Multi</numOfSpokes>
+        <wheelBolting>lug nuts</wheelBolting>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LugNutCarbonWheel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LugNutCarbonWheel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#CarbonWheel"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5#LugNutWheel"/>
+        <material>Carbon fibre</material>
+        <numOfSpokes>Multi</numOfSpokes>
+        <wheelBolting>lug nuts</wheelBolting>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Coupe"/>
+        <label>Mid-engined coupe</label>
+        <material>Carbon fibre</material>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One77PerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One77PerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>750 hp</power>
+        <torque>750 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One_77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One_77">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngAlloyCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM77EngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One77PerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedAT"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/LugNutAlloyWheel"/>
+        <label>Aston Martin One-77</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Pagani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Pagani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manufacturer"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Huayra"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraBC"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraR"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/HuayraRoadster"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinque"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueRoadster"/>
+        <makesModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaR"/>
+        <label>Pagani</label>
+        <manufacturerLocation>Modena, Italy</manufacturerLocation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PurSportWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PurSportWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>15 degrees</wingAttackAngle>
+        <wingWidth>2,038 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Regera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Regera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <untitled-ontology-5:hasRetractableWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraWing"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraTransmission"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Koenigsegg Regera</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Twin-turbocharged</engineAspiration>
+        <engineCapacity>5.0L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Regera V8</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>1,500 hp</power>
+        <torque>1,280 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraTransmission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraTransmission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/SingleSpeedDirectDrive"/>
+        <label>Single-speed fixed-gear (Koenigsegg Direct-Drive)</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RegeraWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RetractableWing"/>
+        <wingAdjustmentType>Active</wingAdjustmentType>
+        <wingAttackAngle>0 degrees</wingAttackAngle>
+        <wingWidth>2,050 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Victor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Victor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/OneOffModel"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One_77"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM77EngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One77PerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedManual"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Aston Martin Victor</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</numOfUnits>
+        <versionType>One-off model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VinylRoofRoadster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VinylRoofRoadster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Roadster"/>
+        <label>Mid-engined roadster</label>
+        <material>Carbon fibre</material>
+        <roofMaterial>Vinyl</roofMaterial>
+        <roofMechanism>Detachable</roofMechanism>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Vulcan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Vulcan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VulcanTrackWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One_77"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FrontEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AMVulcanEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/One77PerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/AM6SpeedSeq"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockCarbonWheel"/>
+        <label>Aston Martin Vulcan</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</numOfUnits>
+        <versionType>Track-only model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VulcanTrackWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VulcanTrackWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>25 degrees</wingAttackAngle>
+        <wingWidth>2,070 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/BaseModel"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Zonda</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</numOfUnits>
+        <versionType>Base model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/DownforceModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinquePerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual6Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Zonda Cinque</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</numOfUnits>
+        <versionType>High-downforce sports model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinquePerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinquePerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>669 hp</power>
+        <torque>780 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueRoadster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueRoadster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/RoadsterModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/VinylRoofRoadster"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinquePerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual6Speed"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Zonda Cinque Roadster</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</numOfUnits>
+        <versionType>Roadster edition</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaCinqueWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>10 degrees</wingAttackAngle>
+        <wingWidth>2,055 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/EngineSpec"/>
+        <engineAspiration>Natural</engineAspiration>
+        <engineCapacity>7.3L</engineCapacity>
+        <engineCylinders rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</engineCylinders>
+        <engineLayout>Mid-engined</engineLayout>
+        <label>Mercedes-AMG V12</label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>5-speed manual</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual6Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaManual6Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>6-speed manual</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>594 hp</power>
+        <torque>760 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/TrackOnlyModel"/>
+        <untitled-ontology-5:hasFixedWing rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRWing"/>
+        <hasBaseModel rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Zonda"/>
+        <hasBodystyle rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/MidEngCarbonCoupe"/>
+        <hasEngineSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaEngineSpec"/>
+        <hasPerformanceSpec rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRPerfSpec"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaSeqManual"/>
+        <hasWheelType rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/CenterLockAlloyWheel"/>
+        <label>Pagani Zonda R</label>
+        <numOfUnits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</numOfUnits>
+        <versionType>Track-only model</versionType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRPerfSpec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRPerfSpec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/PerformanceSpec"/>
+        <drivetrain>RWD</drivetrain>
+        <label>Performance Specs</label>
+        <power>740 hp</power>
+        <torque>710 Nm</torque>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRWing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaRWing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/FixedWing"/>
+        <wingAdjustmentType>Fixed</wingAdjustmentType>
+        <wingAttackAngle>20 degrees</wingAttackAngle>
+        <wingWidth>2,060 mm</wingWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaSeqManual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/ZondaSeqManual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohgh/ontologies/2023/4/untitled-ontology-5/Manual"/>
+        <label>6-speed sequential manual</label>
+        <numOfGears rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</numOfGears>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

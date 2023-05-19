@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="variantsComboBox" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ModelNamesComboBox" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="71" max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ModelNamesComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="variantsComboBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display Base Models"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display Variants for Selected Base Model"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="ModelNamesComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="variantsComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display Spec"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Display Spec"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="TabbedPane"/>
+          </AccessibilityProperties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="EnginePanel">
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Engine">
+                    <Property name="tabTitle" type="java.lang.String" value="Engine"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LayoutLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AspLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CylLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="EngineLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameEngSpecLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="EngineLabel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="CylLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AspLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="LayoutLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameEngComboBox1" alignment="0" min="-2" pref="260" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="234" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="EngineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="EngineLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CylLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CylLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CapLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="AspLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AspLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LayoutLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LayoutLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SameEngSpecLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameEngComboBox1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="106" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="EngineLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Engine Label"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CylLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. of cylinders"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Capacity"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="AspLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Aspiration"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LayoutLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Layout"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="SameEngSpecLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Models with same spec"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="EngineLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Engine Label"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CylLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. of cylinders"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Capacity"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="AspLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Aspiration"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LayoutLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Layout"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="SameEngComboBox1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="PerfPanel">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Performance">
+                    <Property name="tabTitle" type="java.lang.String" value="Performance"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="PerfDrivetrainLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfTorqueLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfPowerLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameEngSpecLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="PerfLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfPowerLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfTorqueLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfDrivetrainLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SamePerfComboBox2" alignment="0" min="-2" pref="260" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="244" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="PerfLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="PerfPowerLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfPowerLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="PerfTorqueLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfTorqueLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="PerfDrivetrainLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerfDrivetrainLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SameEngSpecLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SamePerfComboBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="117" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="PerfLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Performance Spec"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Performance Package"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfPowerLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Power"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfPowerLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Power"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfTorqueLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Torque"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfTorqueLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Torque"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfDrivetrainLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Drivetrain"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PerfDrivetrainLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Drivetrain"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="SameEngSpecLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Models with same spec"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="SamePerfComboBox2">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Transmission">
+                    <Property name="tabTitle" type="java.lang.String" value="Transmission"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="TGearsLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameEngSpecLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="TLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="TGearsLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameTComboBox3" alignment="0" min="-2" pref="260" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="240" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="TGearsLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TGearsLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="SameEngSpecLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="SameTComboBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="166" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="SameTComboBox3">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Item 1"/>
+                        <StringItem index="1" value="Item 2"/>
+                        <StringItem index="2" value="Item 3"/>
+                        <StringItem index="3" value="Item 4"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="SameEngSpecLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Models with same spec"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="TGearsLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. of gears"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="TGearsLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="TLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transmission"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="TLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transmission Type"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Misc">
+                    <Property name="tabTitle" type="java.lang.String" value="Misc"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="CapLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CylLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="EngineLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="MiscLoc2" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscManufacturer2" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscModelName2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscModelType2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscUnits2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="178" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LayoutLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AspLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="LayoutLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="AspLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="CapLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="MiscWhlBolt2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscWhlSpokes2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscWhlMat2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscBodystyle2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="MiscBodyMat2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="EngineLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscModelName2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CylLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscModelType2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CapLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscUnits2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CapLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscManufacturer2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CapLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscLoc2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="AspLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscBodystyle2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="LayoutLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscBodyMat2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CapLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscWhlBolt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="AspLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscWhlSpokes2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="LayoutLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MiscWhlMat2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="103" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="EngineLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Model name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscModelName2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CylLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Model type"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscModelType2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscUnits2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. of units"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="AspLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bodystyle"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscBodystyle2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LayoutLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Body material"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscBodyMat2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscWhlBolt2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Wheel bolting"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="AspLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. of spokes"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscWhlSpokes2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LayoutLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Wheel material"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscWhlMat2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Manufacturer"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscManufacturer2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="CapLabel11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Location"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MiscLoc2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Text"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
