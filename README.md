@@ -85,3 +85,6 @@ Center Lock Wheel and Lug Nut Wheel are disjoint.
 
 
 A Wheel can be of type Carbon Wheel and Center Lock Wheel for example.
+
+
+(For more info, refer to .pdf file ih the repo)
